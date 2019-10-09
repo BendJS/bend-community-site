@@ -1,10 +1,10 @@
 import React from 'react';
 
 export default {
-  title: 'Welcome',
+  title: 'README',
 };
 
-export const Welcome = () => (
+export const Overview = () => (
   <div>
     <h1>Bend Community Site</h1>
     <p>
