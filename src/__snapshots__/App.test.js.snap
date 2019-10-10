@@ -1,15 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App matches last snapshot 1`] = `
+exports[`App renders without crashing 1`] = `
 <div
-  className="App"
+  class="App"
+  data-testid="app"
 >
   <header
-    className="App-header"
+    class="App-header"
   >
     <img
       alt="logo"
-      className="App-logo"
+      class="App-logo"
       src="logo.svg"
     />
     <p>
@@ -20,7 +21,7 @@ exports[`App matches last snapshot 1`] = `
        and save to reload.
     </p>
     <a
-      className="App-link"
+      class="App-link"
       href="https://reactjs.org"
       rel="noopener noreferrer"
       target="_blank"

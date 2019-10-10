@@ -17,38 +17,36 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Example Test File
-We would like to co-locate our unit tests near the component they are testing whenever possible in a new file named <component-name>.test.js
+#### Testing suite tech
+* [react-testing-library](https://testing-library.com/docs/dom-testing-library/intro)
 
-Below is a very basic example of our test suite
+#### Example Test File
+
+We would like to co-locate our unit tests near the component they are testing whenever possible in a new file named `<component-name>.test.js`
+
+Below is a very basic example of our test suite. For information/inspiration please reference the tech references above
 
 ```js
 // filename App.test.js
 import React from 'react';
-import ReactDOM from 'react-dom';
-import renderer from 'react-test-renderer';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect'
 import App from './App';
 
 describe('App', () => {
   it('renders without crashing', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<App />, div);
-    ReactDOM.unmountComponentAtNode(div);
+    const { getByTestId } = render(<App />);
+
+    expect(getByTestId('app')).toMatchSnapshot();
   });
 
-  it('matches last snapshot', () => {
-    const tree = renderer.create(<App />).toJSON();
+  it('renders the right link', () => {
+    const { getByText } = render(<App />);
 
-    expect(tree).toMatchSnapshot();
+    expect(getByText('Learn React')).toBeVisible();
   });
-
-  it('renders a div with class App', () => {
-    const wrapper = shallow(<App />);
-
-    expect(wrapper.find('.App').length).toBe(1);
-  })
 });
+
 ```
 
 ### `yarn build`
