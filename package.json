@@ -1,6 +1,6 @@
 {
   "name": "bend-community-site",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.5.0",
@@ -34,9 +34,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "react-test-renderer": "^16.10.2"
+    "@testing-library/jest-dom": "^4.1.2",
+    "@testing-library/react": "^9.3.0"
   },
   "author": "BendJS",
   "license": "MIT"
