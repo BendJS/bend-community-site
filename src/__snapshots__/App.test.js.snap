@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+<header
+  class="App-header"
+  data-testid="app"
+>
+  <img
+    alt="logo"
+    class="App-logo"
+    src="logo.svg"
+  />
+  <p>
+    Edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+  <a
+    aria-disabled="false"
+    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary App-link"
+    href="https://reactjs.org"
+    rel="noopener noreferrer"
+    tabindex="0"
+    target="_blank"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Learn React
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </a>
+</header>
+`;
