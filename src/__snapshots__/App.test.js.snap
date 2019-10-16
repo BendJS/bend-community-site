@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+<header
+  data-testid="app"
+>
+  <a
+    aria-current="page"
+    href="/"
+  >
+    Home
+  </a>
+  <a
+    href="/contact-us"
+  >
+    Contact Us
+  </a>
+</header>
+`;
