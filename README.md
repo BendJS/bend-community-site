@@ -1,10 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bend Community Site
 
-## Available Scripts
+[![Build Status](https://travis-ci.org/BendJS/bend-community-site.svg?branch=master)](https://travis-ci.org/BendJS/bend-community-site)
+[![Maintainability](https://api.codeclimate.com/v1/badges/9852c0bd75839d08f1f9/maintainability)](https://codeclimate.com/github/BendJS/bend-community-site/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9852c0bd75839d08f1f9/test_coverage)](https://codeclimate.com/github/BendJS/bend-community-site/test_coverage)
+
+## Overview
+
+This site is meant to serve as a gathering place for the tech community in Bend, Oregon. Ideally, it will include at least the following:
+
+* An Event Calendar
+* A Local Jobs Board
+* A Community Blog
+* A Community Forum
+
+## Contributing
+
+Anyone is welcome to contribute, but if you have a direct connection to the BendJS community, even better. We're still working on the contribution guidelines, but don't let that stop you!
+
+### React Development
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,15 +29,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+#### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Testing suite tech
+##### Testing suite tech
 * [react-testing-library](https://testing-library.com/docs/dom-testing-library/intro)
 
-#### Example Test File
+##### Example Test File
 
 We would like to co-locate our unit tests near the component they are testing whenever possible in a new file named `<component-name>.test.js`
 
@@ -44,8 +61,7 @@ describe('App', () => {
 });
 ```
 
-
-### `yarn build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -55,46 +71,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
 ## Storybook UI Library
 
 UI component dev environment
@@ -102,3 +78,7 @@ UI component dev environment
 ```bash
  yarn storybook
  ```
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started). To learn React, check out the [React documentation](https://reactjs.org/).
