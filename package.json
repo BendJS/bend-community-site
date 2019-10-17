@@ -1,56 +1,64 @@
 {
-    "name": "bend-community-site",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "@material-ui/core": "^4.5.0",
-        "@material-ui/icons": "^4.4.3",
-        "@material-ui/styles": "^4.5.0",
-        "@reach/router": "^1.2.1",
-        "@testing-library/react": "^9.3.0",
-        "formik": "^1.5.8",
-        "react": "^16.10.2",
-        "react-dom": "^16.10.2",
-        "react-scripts": "3.2.0"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-    "main": "index.js",
-    "devDependencies": {
-        "@babel/core": "7.6.4",
-        "@babel/node": "7.6.3",
-        "@testing-library/jest-dom": "^4.1.2",
-        "@testing-library/react": "^9.3.0",
-        "babel-eslint": "^10.0.3",
-        "eslint": "^6.5.1",
-        "eslint-config-airbnb": "^18.0.1",
-        "eslint-plugin-babel": "^5.3.0",
-        "eslint-plugin-import": "^2.18.2",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-react": "^7.16.0",
-        "eslint-plugin-react-hooks": "2.1.2",
-        "prettier": "1.18.2"
-    },
-    "author": "BendJS",
-    "license": "MIT"
+  "name": "bend-community-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/styles": "^4.5.0",
+    "@reach/router": "^1.2.1",
+    "@storybook/addon-info": "^5.2.3",
+    "@testing-library/react": "^9.3.0",
+    "formik": "^1.5.8",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/node": "7.6.3",
+    "@storybook/addon-actions": "^5.2.3",
+    "@storybook/addon-links": "^5.2.3",
+    "@storybook/addons": "^5.2.3",
+    "@storybook/react": "^5.2.3",
+    "@testing-library/jest-dom": "^4.1.2",
+    "@testing-library/react": "^9.3.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "2.1.2",
+    "prettier": "1.18.2"
+  },
+  "author": "BendJS",
+  "license": "MIT"
 }
