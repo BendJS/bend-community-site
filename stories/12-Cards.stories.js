@@ -16,7 +16,7 @@ export default {
 export const Example = () => (
   <div style={{width: `288px`, margin: `20px`}}>
     <Card>
-      <CardActionArea>
+      <CardActionArea onClick={()  => {alert('Card Action Area Clicked!')}}>
         <CardMedia
           style={{height: `150px`}}
           image="https://material-ui.com/static/images/cards/contemplative-reptile.jpg"
