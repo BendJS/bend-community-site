@@ -1,0 +1,15 @@
+.calendar-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 14px;
+    height: calc(100vh - 100px);
+    margin: 20px auto;
+    min-height: calc(100vh - 100px);
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+    padding: 0 40px;
+    width: 90%;
+}
