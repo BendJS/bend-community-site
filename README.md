@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## About Project
+
+These Storybook stories show examples of Bootstrap UI components using the React Bootstrap port.
+
 ## Available Scripts
 
 In the project directory, you can run:
