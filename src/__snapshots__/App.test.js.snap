@@ -1,19 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders without crashing 1`] = `
-<header
+<div
+  class="makeStyles-root-1"
   data-testid="app"
 >
-  <a
-    aria-current="page"
-    href="/"
+  <header
+    class="MuiPaper-root MuiPaper-elevation4 MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
   >
-    Home
-  </a>
-  <a
-    href="/contact-us"
-  >
-    Contact Us
-  </a>
-</header>
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg"
+    >
+      <div
+        class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <h6
+          class="MuiTypography-root makeStyles-title-2 MuiTypography-h6"
+        >
+          Bend Community Site
+        </h6>
+        <a
+          aria-current="page"
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-3 MuiButton-colorInherit"
+          href="/"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Home
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-button-3 MuiButton-colorInherit"
+          href="/contact-us"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Contact Us
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+  </header>
+</div>
 `;

@@ -30,7 +30,10 @@ function Home() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div
+      className={classes.root}
+      data-testid="app"
+    >
       <AppBar position="static">
         <Container maxWidth="lg">
           <Toolbar>
