@@ -13,3 +13,28 @@
     padding: 0 40px;
     width: 90%;
 }
+
+.rbc-event {
+    border-radius: 4px;
+    opacity: 0.8;
+    color: #FFFFFF;
+    border: 1px;
+    display: block;
+}
+
+.rbc-event.BendJS {
+    background-color: #FFFF00;
+    color: #000000;
+}
+
+.rbc-event.BendTech {
+    background-color: #00FF00;
+}
+
+.rbc-event.AWS {
+    background-color: #0000FF;
+}
+
+.rbc-event.WordPress {
+    background-color: #FF0000;
+}
