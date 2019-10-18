@@ -9,13 +9,13 @@ export default {
 
 export const KitchenSink = () => (
   <div>
-    <Button variant="contained">
+    <Button variant="contained" onClick={()  => {alert('Default Button Clicked!')}}>
       Default
     </Button>
-    <Button variant="contained" color="primary">
+    <Button variant="contained" color="primary" onClick={()  => {alert('Primary Button Clicked!')}}>
       Primary
     </Button>
-    <Button variant="contained" color="secondary">
+    <Button variant="contained" color="secondary" onClick={()  => {alert('Secondary Button Clicked!')}}>
       Secondary
     </Button>
     <Button variant="contained" color="secondary" disabled>

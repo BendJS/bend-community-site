@@ -13,7 +13,7 @@ export default {
   title: `Material | Cards`,
 };
 
-export const KitchenSink = () => (
+export const Example = () => (
   <div style={{width: `288px`, margin: `20px`}}>
     <Card>
       <CardActionArea>
@@ -33,10 +33,10 @@ export const KitchenSink = () => (
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={()  => {alert('Card Share Button Clicked!')}}>
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" onClick={()  => {alert('Card Learn More Button Clicked!')}}>
           Learn More
         </Button>
       </CardActions>
