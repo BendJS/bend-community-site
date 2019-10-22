@@ -17,6 +17,34 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+#### Testing suite tech
+* [react-testing-library](https://testing-library.com/docs/dom-testing-library/intro)
+
+#### Example Test File
+
+We would like to co-locate our unit tests near the component they are testing whenever possible in a new file named `<component-name>.test.js`
+
+Below is a very basic example of our test suite. For information/inspiration please reference the tech references above
+
+```js
+// filename App.test.js
+import React from 'react';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect'
+import App from './App';
+describe('App', () => {
+  it('renders without crashing', () => {
+    const { getByTestId } = render(<App />);
+    expect(getByTestId('app')).toMatchSnapshot();
+  });
+  it('renders the right link', () => {
+    const { getByText } = render(<App />);
+    expect(getByText('Learn React')).toBeVisible();
+  });
+});
+```
+
+
 ### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
@@ -66,3 +94,11 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Storybook UI Library
+
+UI component dev environment
+
+```bash
+ yarn storybook
+ ```
