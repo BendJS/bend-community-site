@@ -1,0 +1,67 @@
+.modal-background {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.4);	
+}
+
+.inner-modal-content {
+	width: 375px;
+	text-align: center;
+	background: #fefefe;
+	margin: 15% auto;
+	padding: 20px 40px 20px 40px;
+	border: 1px solid #888;
+}
+
+.cell-style {
+	height: auto;
+	text-align: left;
+	padding: 15px;
+}
+
+.icon-style {
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	text-align: center;
+}
+
+.grid-style {
+	display: grid;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.add-input-style {
+	font-size: 25px;
+	padding: 15px;
+	height: 55px;
+}
+
+.update-input-style {
+	width: 100%;
+	border: 1px solid #cccccc;
+}
+
+.add-button-style {
+	background: #4feb34;
+	color: white;
+	border: 2px solid #42b32e;
+	margin: auto;
+	width: 100%;
+	padding: 0px;
+}
+
+.error-style {
+	text-align: center;
+	color: red;
+	margin-top: 15px;
+	height: 20px;
+}
